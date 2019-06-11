@@ -44,6 +44,7 @@ public class Main {
                 tx = session.beginTransaction();
                 session.persist(event);
                 tx.commit();
+                System.out.println("Event registered");
             }
         } while (!stop);
     }

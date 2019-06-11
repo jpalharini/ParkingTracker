@@ -41,7 +41,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>br.unisinos.ParkingTracker.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

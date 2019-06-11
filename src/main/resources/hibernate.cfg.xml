@@ -4,14 +4,14 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="dialect">org.hibernate.dialect.PostgreSQL94Dialect</property>
+    <property name="dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
-    <property name="connection.url">jdbc:postgresql://localhost:5432/parking_tracker</property>
-    <property name="connection.username">jpalharini</property>
-    <property name="connection.password">postgres</property>
+    <property name="connection.url">jdbc:postgresql://ls-412dd141400edce6c48062b8fe2391cb75363519.c4sbcgwrss1s.us-east-1.rds.amazonaws.com:5432/parking_tracker</property>
+    <property name="connection.username">dbmasteruser</property>
+    <property name="connection.password">guS7Q;Igma};l9>9?5}+c[]LN4K4zyvA</property>
 
-    <property name="hibernate.hbm2ddl.auto">create</property>
-    <property name="show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="show_sql">false</property>
 
     <mapping class="br.unisinos.ParkingTracker.Event"/>
   </session-factory>
